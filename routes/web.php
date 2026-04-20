@@ -21,6 +21,11 @@ Route::get('/welcome', function () {
     return view('welcome.index');
 });
 
-Route::get('/buku', function () {
-    return view('buku.index');
+
+Route::get('/tabel', function () {
+    return view('tabel.tabel');
+});
+
+Route::get('/mapel',function() {
+    return view('mapel.mapel');
 });
