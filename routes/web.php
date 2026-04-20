@@ -25,3 +25,7 @@ Route::get('/welcome', function () {
 Route::get('/tabel', function () {
     return view('tabel.tabel');
 });
+
+Route::get('/mapel',function() {
+    return view('mapel.mapel');
+});
