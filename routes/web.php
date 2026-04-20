@@ -29,3 +29,7 @@ Route::get('/tabel', function () {
 Route::get('/mapel',function() {
     return view('mapel.mapel');
 });
+
+Route::get('/buku',function() {
+    return view('buku.index');
+});
